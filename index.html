@@ -31,7 +31,7 @@
       }
       .logo {
           display: block;
-          max-width: 20vw;
+          max-width: 30vw;
           max-height: 70vh;
       }
 
@@ -101,7 +101,7 @@
 
   <script src="Build/UnityLoader.js"></script>
   <script>
-  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/b_01.json", {onProgress: UnityProgress});
+  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/b_02.json", {onProgress: UnityProgress});
   function UnityProgress(gameInstance, progress) {
     if (!gameInstance.Module) {
       return;
